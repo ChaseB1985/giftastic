@@ -1,0 +1,76 @@
+add-animal{
+    border: 1px dotted #999;
+    border-radius: 0;
+  
+    -webkit-appearance: none;
+}
+.animal-button{
+    display:inline-block;
+    padding:0.3em 1.2em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    background-color:#4eb5f1;
+    text-align:center;
+    transition: all 0.2s;
+    
+}
+body {
+    font: 18px arial, sans-serif;
+    background: #eee;
+  }
+  
+  #animals {
+    width: 70%;
+  }
+  
+  .animal-item {
+    float: left;
+    padding: 10px;
+  }
+  
+  form {
+    float: right;
+    width: 30%;
+    padding: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  button,
+  input[type="submit"] {
+    padding: 5px 20px;
+    margin: 0 10px 10px 0;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    background: #659a98;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px #bbb;
+  }
+  
+  button:hover,
+  input[type="submit"]:hover {
+    background: #334e4d;
+  }
+  
+  button.active {
+    background: #334e4d;
+  }
+  
